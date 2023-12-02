@@ -80,4 +80,4 @@ if __name__ == '__main__':
     po = Popen("python update.py", shell=True)
     po.wait()
     app.env = 'development'
-    app.run(processes=1, host="0.0.0.0", port=5001, debug=True)
+    app.run(processes=1, host="0.0.0.0", port=5001, debug=True) 
